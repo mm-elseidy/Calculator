@@ -35,10 +35,6 @@ body {
     flex-direction: column;
 }
 
-.container {
-    margin: 15px auto;
-}
-
 body.active1 {
     background-color: var(--mainbg1color);
 }
@@ -281,9 +277,10 @@ body.active2 .equal {
 @media (max-width: 600px) {
     .container {
         width: 310px;
+        margin: 0;
     }
     .btn {
-        width: 310px;
+        width: 100%;
         padding: 10px 5px;
         margin: 8px 0;
     }
